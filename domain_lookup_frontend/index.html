@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whois Lookup Tool</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Whois Lookup Tool</h1>
+        <div class="form-group">
+            <input type="text" class="form-control" id="url" name="url" placeholder="Please enter a valid url">
+            <button type="button" class="btn btn-default" onclick="sendToBackend()">Submit</button>
+        </div>
+    </div>
+    <div class="result">
+        <div class="card">
+            <h2>Result</h2>
+            <div class="row">
+                <div class="left">URL</div>
+                <div class="response"></div>
+                <div class="left">Domain</div>
+                <div class="response"></div>
+                <div class="left">Creation_date</div>
+                <div class="response"></div>
+                <div class="left">Updated_date</div>
+                <div class="response"></div>
+                <div class="left">Expiration_date</div>
+                <div class="response"></div>
+                <div class="left">Registrar</div>
+                <div class="response"></div>
+                <div class="left">Reg_country</div>
+                <div class="response"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
